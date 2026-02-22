@@ -57,7 +57,7 @@ export default function About() {
           >
             <div className="theme-text-accent flex items-center gap-3 text-sm">
               <span className="theme-dot-accent-soft h-2 w-2 rounded-full" />
-              <span className="text-lg font-semibold">Silos es mi a los más</span>
+              <span className="text-lg font-semibold">Mi enfoque de Trabajo</span>
             </div>
 
             <Stagger className="mt-5 space-y-4" stagger={0.08} amount={0.25}>
