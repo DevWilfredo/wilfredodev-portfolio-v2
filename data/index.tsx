@@ -103,6 +103,25 @@ export const HIGHLIGHTS = [
 //Listado de Proyectos para la seccion de Proyectos
 export const PROJECTS: ProjectItem[] = [
   {
+    title: "Bukky",
+    copy: "SaaS de Gestión de Citas, Personalizado para Negocios de Servicios",
+    projectIcon: {
+      src: "/projects/bukky/bukky-logo.svg",
+      alt: "Bukky logo o thumbnail",
+      imageClassName: "object-cover",
+    },
+    tags: [
+      { label: "Nestjs", icon: <NestJS className="size-5" /> },
+      { label: "Nextjs", icon: <Nextjs className="size-5" /> },
+      { label: "TypeScript", icon: <TypeScript className="size-5" /> },
+      { label: "AWS", icon: <AmazonWebServices className="size-5" /> },
+      { label: "TailwindCSS", icon: <TailwindCSS className="size-5" /> }
+    ],
+    featuredImage: "/projects/bukky/bukky-screenshot.webp",
+    preview: 'https://bukky.wegox.io',
+    github: ''
+  },
+  {
     title: "PrimeStore",
     copy: "Ecommerce Tecnologico Desplegado en AWS",
     projectIcon: {

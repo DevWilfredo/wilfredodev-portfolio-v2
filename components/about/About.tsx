@@ -18,7 +18,7 @@ export default function About() {
             Soy <span className="font-semibold text-white">Wilfredo</span>, un
             Desarrollador FullStack con{" "}
             <span className="font-semibold text-white">
-              2 años de experiencia
+              3 años de experiencia
             </span>{" "}
             en tecnologías como Next.js, NestJS, Tailwind CSS, Node.js,
             TypeScript, JavaScript y certificado en AWS.

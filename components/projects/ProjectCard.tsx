@@ -69,15 +69,17 @@ export default function ProjectCard({ title, tags, copy, featuredImage, projectI
                     <ExternalLink className="h-3.5 w-3.5" />
                     Ver preview
                 </a>
-                <a
-                    href={github}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="theme-btn-secondary inline-flex flex-1 items-center justify-center gap-2 rounded-full px-4 py-2 text-xs font-semibold"
-                >
-                    <GitHub className="h-3.5 w-3.5" />
-                    Ver github
-                </a>
+                {github && (
+                    <a
+                        href={github}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="theme-btn-secondary inline-flex flex-1 items-center justify-center gap-2 rounded-full px-4 py-2 text-xs font-semibold"
+                    >
+                        <GitHub className="h-3.5 w-3.5" />
+                        Ver github
+                    </a>
+                )}
             </div>
         </article>
     )
